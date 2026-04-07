@@ -7,167 +7,64 @@
 
 ---
 
-A professional shopping cart application built with React and Redux Toolkit, featuring real-time state management, persistent storage, and comprehensive input validation.
+## 📌 Overview
+A professional shopping cart application built using **React and Redux Toolkit**.  
+This project demonstrates real-time state management, input validation, and persistent storage using LocalStorage.
 
-## Overview
+---
 
-A full-featured shopping cart application demonstrating advanced React development practices including:
+## 🚀 Features
+- Add products with proper input validation  
+- Remove items from cart  
+- Update product quantity dynamically  
+- Automatic total price calculation  
+- Data persistence using LocalStorage  
+- Responsive design for all devices  
+- Error handling with user-friendly messages  
 
-- Redux Toolkit for centralized state management
-- Input Validation with detailed error messages
-- LocalStorage Persistence for data retention
-- Responsive Design that works on all devices
-- Accessibility Features with ARIA labels
-- Modern UI with smooth animations
-- Clean and well-organized code
+---
 
-## Quick Start
+## 🛠️ Technologies Used
+- React  
+- Redux Toolkit  
+- React Redux  
+- CSS3  
 
-### Prerequisites
-- Node.js 14.0 or higher
-- npm 6.0 or higher
+---
 
-### Installation
+## 📂 Project Structure
 
-```bash
-# Navigate to project directory
-cd 24BCY70005-7b-Madani-Hamdi
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-```
-
-The application will open at [http://localhost:3000](http://localhost:3000)
-
-## Project Structure
-
-```
 src/
 ├── app/
 ├── components/
 ├── features/
 ├── utils/
-│   ├── validation.js               # Input validation functions
-│   └── formatting.js               # Formatting utilities
-├── App.js                          # Root component
-├── index.js                        # Entry point
-└── index.css                       # Global styles
-```
+├── App.js
+├── index.js
 
-## Features
 
-### Add Products
-- Enter product name, price, and quantity
-- Real-time input validation
-- Clear error messages for invalid inputs
-- Press Enter or click "Add Item" button
+---
 
-### Manage Cart
-- View all products in an organized table
-- Update quantities on the fly
-- Remove items with one click
-- Real-time total calculation
-
-### Data Persistence
-- Cart saves to browser LocalStorage
-- Data persists across sessions
-- Automatic sync on every change
-
-### Input Validation
-- Product Name: Required, max 100 characters
-- Price: Positive number, $0.01 - $999,999.99
-- Quantity: Integer, 1 - 999
-
-## Available Commands
-
+## ⚙️ Installation
 ```bash
 git clone <your-repo-link>
 cd project-folder
 npm install
 npm start
+▶️ Usage
+Enter product name, price, and quantity
+Click Add Item
+Modify quantity or remove items
+View total price updated in real-time
+💾 Data Persistence
+Cart data is stored using LocalStorage
+Data remains saved even after refreshing the page
+📚 Key Learnings
+React Hooks (useState, useEffect)
+Redux state management
+Form validation techniques
+Responsive UI design
+👨‍💻 Author
 
-# Build for production
-npm run build
-
-# Run tests
-npm test
-```
-
-## Technologies Used
-
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| React | 19.2.4 | UI library |
-| Redux Toolkit | 2.11.2 | State management |
-| React Redux | 9.2.0 | React bindings |
-| CSS3 | - | Professional styling |
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Key Learnings
-
-This project demonstrates:
-- React Hooks (useState, useEffect, useSelector, useDispatch)
-- Redux state management and actions
-- Form validation techniques
-- CSS Grid and Flexbox layouts
-- Responsive design patterns
-- LocalStorage API usage
-- Accessibility/ARIA attributes
-
-## Features Implemented
-
-✅ Add items to cart with validation
-✅ Remove items from cart
-✅ Update item quantities
-✅ Calculate totals in real-time
-✅ Persistent storage with LocalStorage
-✅ Professional UI design
-✅ Error handling and user feedback
-✅ Mobile responsive layout
-✅ Accessibility compliance
-
-## How to Use
-
-1. **Add a Product**
-   - Fill in product name, price, and quantity
-   - Click "Add Item" or press Enter
-   - Product appears in the cart table
-
-2. **Modify Quantity**
-   - Use the quantity input in the cart table
-   - Changes apply immediately
-
-3. **Remove Product**
-   - Click the "Remove" button
-   - Product is deleted from cart
-
-4. **View Total**
-   - Total updates as items change
-   - Displayed in the summary section
-
-## Tips
-
-- Cart data is automatically saved to browser storage
-- Empty the cart by removing all items
-- Success messages appear when items are added
-- Validation errors show specific issues
-- Works offline - uses LocalStorage
-
-## Notes
-
-- The development build is not optimized
-- For production, use `npm run build`
-- Clear browser cache if styling issues occur
-
----
-
-**Submitted for:** Redux Shopping Cart Implementation
+Madani Hamdi
+Student ID: 24BCY70005
