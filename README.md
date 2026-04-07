@@ -33,7 +33,6 @@ It includes real-time state management, input validation, and data persistence.
 ---
 
 ## 📂 Project Structure
-
 src/
 ├── app/
 ├── components/
@@ -69,3 +68,4 @@ Responsive design
 
 Madani Hamdi
 24BCY70005
+exp:7
