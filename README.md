@@ -31,8 +31,8 @@ It includes real-time state management, input validation, and data persistence.
 - CSS3  
 
 ---
-
 ## 📂 Project Structure
+
 src/
 ├── app/
 ├── components/
@@ -40,7 +40,6 @@ src/
 ├── utils/
 ├── App.js
 ├── index.js
-
 
 ---
 
